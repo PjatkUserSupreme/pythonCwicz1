@@ -9,10 +9,10 @@ except ValueError:
 
 if c == "+":
     print(a + b)
-if c == "-":
+elif c == "-":
     print(a - b)
-if c == "/":
+elif c == "/":
     print(a / b)
-if c == "*":
+elif c == "*":
     print(a * b)
 
